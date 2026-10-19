@@ -1,0 +1,23 @@
+{
+  "name": "agent-guardrails",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Paranoid agent guardrails: PII redaction, jailbreak heuristics, banned-topic filters, and spend/call budgets as tool wrappers.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "agent-tools": "github:theAliCanAcar/agent-tools#main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theAliCanAcar/agent-guardrails.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theAliCanAcar/agent-guardrails/issues"
+  },
+  "homepage": "https://github.com/theAliCanAcar/agent-guardrails#readme"
+}
